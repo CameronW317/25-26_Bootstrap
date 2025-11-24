@@ -39,7 +39,7 @@
                                         <!-- Email Field -->
                                         <div class="mb-3 mt-3">
                                             <label>Email</label>
-                                            <input type="email" class="form-control" id="email" name="email"
+                                            <input type="email" class="form-control" class="email" name="email"
                                                    placeholder="Enter email">
                                         </div>
                                         <!-- Password Field -->
@@ -75,23 +75,54 @@
         </nav>
     </div>
     <div class="row">
-        <div class="col-lg col-sm-12">
-            <p class="text-dark text-center pt-5">
-                Welcome to the portfolio of the highly successful entrepreneur, Cameron Weiss.
-            </p>
+        <form action="#" method="GET">
+
+                <div class="col-lg-6 col-sm-12 mb-3 mt-3">
+                    <label for="fname" class="form-label">First name:</label>
+                    <input type="text" class="form-control"  name="fname" id="fname">
+                </div>
+                <div class="col-lg-6 col-sm-12 mb-3 mt-3">
+                    <label for="lname" class="form-label">Last name:</label>
+                    <input type="text" class="form-control"  name="lname" id="lname">
+                </div>
+
+
+        </form>
+    </div>
+    <div class="row">
+        <form action="#" method="GET">
+
+                <div class="col-12 mb-3 mt-3">
+                    <label for="email2" class="form-label">Email</label>
+                    <input type="text" class="form-control" name="email" id="email2">
+                </div>
+
+        </form>
+    </div>
+    <div class="row">
+        <form action="#" method="GET">
+            <div class="col-lg-10 col-sm-12 mb-3 mt-3">
+                <label for="feedback">Feedback</label>
+                <textarea class="form-control" rows="3" id="feedback" name="feedback"></textarea>
+            </div>
+            <button type="submit" class="col-lg-2 col-sm-12 btn btn-primary mb-3 mt-3">Submit</button>
+        </form>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center">
+            <h3>Reviews</h3>
         </div>
-        <div class="col-4 p-3 rounded" style="background-color: #A5EB78;">
-            <img src="me.jpg" class="text-center" height="385px" width="330px">
-        </div>
-        <div class="col-4 text-dark text-center pt-5">
-            <h3>Educators</h3>
-            <ul>
-                <li style="list-style-type: none ">Mr. Kiedes</li>
-                <li style="list-style-type: none "></li>
+        <div class="col-12">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
             </ul>
         </div>
-
     </div>
+
     <div class="row page-footer" style="background-color: #78BEEB;">
         <p class="text-center">&copy; 2025 Cameron Weiss. All rights reserved.</p>
     </div>
